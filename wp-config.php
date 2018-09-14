@@ -27,11 +27,11 @@ include_once __DIR__ . '/wp-config.common.php';
 define('DB_NAME', 'bombas_db');
 //define('DB_NAME', 'bomba');
 /** MySQL database username */
-define('DB_USER', 'bombasusr');
+define('DB_USER', 'root');
 //define('DB_USER', 'bomba');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'HBqaBNfpM2N7hOLc');
+define('DB_PASSWORD', '');
 //define('DB_PASSWORD', 'GtveIVfwZAYncnm');
 /** MySQL hostname */
 //define('DB_HOST', 'mysql');
