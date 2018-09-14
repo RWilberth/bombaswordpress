@@ -1,4 +1,8 @@
 <?php
+
+// Configuration common to all environments
+include_once __DIR__ . '/wp-config.common.php';
+
 /**
  * The base configuration for WordPress
  *
@@ -21,16 +25,17 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'bombas_db');
-
+//define('DB_NAME', 'bomba');
 /** MySQL database username */
 define('DB_USER', 'bombasusr');
+//define('DB_USER', 'bomba');
 
 /** MySQL database password */
 define('DB_PASSWORD', 'HBqaBNfpM2N7hOLc');
-
+//define('DB_PASSWORD', 'GtveIVfwZAYncnm');
 /** MySQL hostname */
+//define('DB_HOST', 'mysql');
 define('DB_HOST', 'localhost');
-
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
@@ -79,6 +84,7 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
+define('VP_ENVIRONMENT', 'default');
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
